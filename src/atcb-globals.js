@@ -131,6 +131,7 @@ const atcbWcParams = [
   'timeZone',
   'useUserTZ',
   'location',
+  'url',
   'status',
   'uid',
   'organizer',

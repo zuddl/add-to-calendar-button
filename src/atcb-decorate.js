@@ -508,7 +508,7 @@ function atcb_decorate_data_dates(data) {
 // override the dates information with values on the root level
 function atcb_move_root_values_into_dates(data, i) {
   const dateEntry = data.dates[`${i}`];
-  const properties = ['description', 'startDate', 'startTime', 'endDate', 'endTime', 'timeZone', 'useUserTZ', 'location', 'status', 'sequence', 'availability', 'organizer', 'attendee'];
+  const properties = ['description', 'startDate', 'startTime', 'endDate', 'endTime', 'timeZone', 'useUserTZ', 'location', 'url', 'status', 'sequence', 'availability', 'organizer', 'attendee'];
   // do it for name only if data.dates is not >1 as in this case, name would be used for the event series title
   if (data.dates.length === 1) {
     properties.unshift('name');

@@ -1,6 +1,9 @@
 {
-  "name": "add-to-calendar-button",
+  "name": "@zuddl/add-to-calendar-button",
   "version": "2.13.4",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "engines": {
     "node": ">=18.17.0",
     "npm": ">=9.6.7"
@@ -46,7 +49,7 @@
   "jsdelivr": "./dist/atcb.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/add2cal/add-to-calendar-button.git"
+    "url": "https://github.com/zuddl/add-to-calendar-button.git"
   },
   "keywords": [
     "react",
@@ -76,9 +79,9 @@
   },
   "license": "ELv2",
   "bugs": {
-    "url": "https://github.com/add2cal/add-to-calendar-button/issues"
+    "url": "https://github.com/zuddl/add-to-calendar-button/issues"
   },
-  "homepage": "https://add-to-calendar-button.com/",
+  "homepage": "https://github.com/zuddl/add-to-calendar-button",
   "scripts": {
     "release": "node set-release.js",
     "stylelint": "npx stylelint assets/css/*.css",

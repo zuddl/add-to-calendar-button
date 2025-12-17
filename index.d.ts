@@ -60,6 +60,7 @@ export interface ATCBActionEventConfig {
   timeZone?: string;
   useUserTZ?: boolean;
   location?: string;
+  url?: string;
   status?: 'TENTATIVE' | 'CONFIRMED' | 'CANCELLED';
   sequence?: number;
   uid?: string;
@@ -126,6 +127,7 @@ export type AddToCalendarButtonType = {
   timeZone?: string;
   useUserTZ?: boolean;
   location?: string;
+  url?: string;
   status?: 'TENTATIVE' | 'CONFIRMED' | 'CANCELLED';
   sequence?: number | string;
   uid?: string;
@@ -204,6 +206,7 @@ export interface EventDate {
   timeZone?: string;
   useUserTZ?: boolean;
   location?: string;
+  url?: string;
   status?: 'TENTATIVE' | 'CONFIRMED' | 'CANCELLED';
   sequence?: number;
   uid?: string;

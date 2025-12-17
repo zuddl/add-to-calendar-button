@@ -583,6 +583,9 @@ function atcb_generate_ical(host, data, type, subEvent = 'all', keyboardTrigger 
     if (data.dates[`${i}`].description && data.dates[`${i}`].description !== '') {
       ics_lines.push('X-ALT-DESC;FMTTYPE=text/html:\r\n <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">\r\n <HTML><BODY>\r\n ' + atcb_rewrite_ical_text(data.dates[`${i}`].description) + '\r\n </BODY></HTML>');
     }
+    if (data.dates[`${i}`].url && data.dates[`${i}`].url !== '') {
+      ics_lines.push('URL:' + atcb_rewrite_ical_text(data.dates[`${i}`].url));
+    }
     if (data.dates[`${i}`].location && data.dates[`${i}`].location !== '') {
       ics_lines.push('LOCATION:' + atcb_rewrite_ical_text(data.dates[`${i}`].location));
     }
