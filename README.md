@@ -7,6 +7,16 @@
 
 <br />
 
+# Note: 
+
+This was forked to add a minor fix.
+
+The fork adds a Url prop for the URL field of the ics file.
+
+This fork was built on node 20
+
+<br />
+
 # Your next Add to Calendar Button
 
 The convenient JavaScript Web Component, which lets you reliably create beautiful buttons, where people can add events to their calendars.
